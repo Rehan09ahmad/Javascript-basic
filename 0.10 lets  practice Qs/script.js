@@ -1,4 +1,4 @@
-let score = prompt("enter your number ");
+let score = 89;
 let grade;
 
 if(score >= 90  && score <= 100 ){
