@@ -1,0 +1,7 @@
+// An infinit Loop is a loop that never stops running beacuse the terminating condition is never met.
+
+
+
+// while (true){
+        // console.log(" This will run forever");
+// }
