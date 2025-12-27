@@ -16,7 +16,7 @@
     let str = "rehan ahmad";
 
 for (let i = 0; i < str.length; i++) {
-  console.log("index",i,"character",str[i]);
+  console.log("index",i,"character",str[i]);  // This code prints each character of the string along with its index (position).
 }
 
 }
