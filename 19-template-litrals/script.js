@@ -14,3 +14,4 @@
 
     console.log(`Hello ${user}, you are learning ${Course}`) //String interpolation allows you to insert variables or expressions inside a string using
 }
+
