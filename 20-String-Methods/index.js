@@ -16,13 +16,13 @@ console.log(Name.toLowerCase())
 }
 
 {
-    // slice 
+    // Slice 
     let name = " Rehan Ahmad";
     console.log(name.slice(0,8))  // slice() is a JavaScript string method that extracts a part of a string and returns it as a new string, without changing the original string.
 }
 
 { 
-    // concat 
+    // Concat
     let FirstName = "Rehan";
     let SecondName = "Ahmad";
 
