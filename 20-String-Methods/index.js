@@ -39,5 +39,5 @@ console.log(Name.toLowerCase())
 {
     // charAt 
     let str = "Ilovejs";
-    console.log(str.charAt(1));
+    console.log(str.charAt(1)); // charAt() is a JavaScript string method that returns the character at a specified index in a string.
 }
