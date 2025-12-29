@@ -14,7 +14,7 @@ for(let num = 0; num < numbers.length; num++){
     let hero = ["rehan", "ali", "wijdan", "saad", "sami", "maaz"];
 
     for(let name of hero ){
-        console.log("Name :", name); // Direct value console.log karte hain.
+        console.log("Name :", name.toUpperCase()); // Direct value console.log karte hain.   {to us uppar case }
         
     }
 }
