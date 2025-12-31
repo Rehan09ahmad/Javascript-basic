@@ -1,7 +1,2 @@
-let name = "rehan amad";
-console.log(name);
-
-
-
-
-
+let Name = "rehan amad";
+console.log(Name);
