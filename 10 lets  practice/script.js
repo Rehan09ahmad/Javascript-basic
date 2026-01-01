@@ -10,6 +10,6 @@ if (score >= 90 && score <= 100){
 }else if (score >= 50 && score <= 59){
     graade = "D"
 }else if (score >= 0 && score <= 49){
-
+      grade = "Yore are failed"
 }
 console.log("accourding to your score grade was:",grade )
