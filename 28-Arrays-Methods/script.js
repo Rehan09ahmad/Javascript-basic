@@ -34,3 +34,22 @@ let group3 = ["saad", "Khayam", "Maaz"];
 
 let Addmen = group1.concat(group2, group3);
 console.log(Addmen)
+
+// ======================================
+
+
+// arrays method Unshift 
+
+let name = ["Rehan", "Ahamd", "Ali"];
+name.unshift("saad")
+console.log(name)  //it work same like push but it add at start
+
+//=======================================================
+
+
+// arrays methods shift 
+
+let Name = ["haris", "Rameez", "Rehan", "Rizwan"];
+
+let hero = Name.shift()
+console.log("deleted",hero) //it work same like pop but it delete at start
