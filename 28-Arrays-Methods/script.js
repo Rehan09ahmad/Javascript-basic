@@ -42,7 +42,7 @@ console.log(Addmen)
 
 let name = ["Rehan", "Ahamd", "Ali"];
 name.unshift("saad")
-console.log(name)  //it work same like push but it add at start
+console.log(name)  //it work same like push but it add to start
 
 //=======================================================
 
@@ -52,4 +52,4 @@ console.log(name)  //it work same like push but it add at start
 let Name = ["haris", "Rameez", "Rehan", "Rizwan"];
 
 let hero = Name.shift()
-console.log("deleted",hero) //it work same like pop but it delete at start
+console.log("deleted",hero) //it work same like pop but it delete to start
