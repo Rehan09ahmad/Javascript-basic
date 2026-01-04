@@ -67,3 +67,35 @@ console.log(heros.slice(1))
 console.log(heros.slice(2))
 console.log(heros.slice(3))
 console.log(heros.slice(1,3)) // it print onlye thos index which you targeted    slice(1,3)  1 and 2 print and the 3rd one not printed
+
+// =========================================================
+
+// {splice Method}
+
+
+// splice() array ko beech se change karta hai.
+// Is se hum:
+// item remove kar sakte hain
+// item add kar sakte hain
+// remove + add dono ek sath kar sakte hain
+
+
+
+console.log("======================================================")
+let arr = [ 1, 2, 103, 4, 5, 6, 7, 8, 9, 10,];
+arr.splice(2, 1, 3) //  replace
+console.log(arr, "3 is replace");
+
+console.log("========================================================")
+
+let arr1 = ["rehan", "ahmad", "ali"];
+arr1.splice(1,0, "khan") // add 
+console.log(arr1, "khan added") // 
+
+console.log("===========================================================")
+
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+arr2.splice(3,3)
+console.log(arr2, "remove 4,5,6") // remove 
+
