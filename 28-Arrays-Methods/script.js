@@ -53,3 +53,17 @@ let Name = ["haris", "Rameez", "Rehan", "Rizwan"];
 
 let hero = Name.shift()
 console.log("deleted",hero) //it work same like pop but it delete to start
+
+// =========================================================
+
+// arrays method slice 
+
+
+let heros = ["sharukh khan", "salman khan", "imran khan", "ameer khan"];
+
+console.log(heros.slice())   //returns a piece of arrays 
+console.log(heros.slice(0))   // slice (startindx,    endindx)
+console.log(heros.slice(1))
+console.log(heros.slice(2))
+console.log(heros.slice(3))
+console.log(heros.slice(1,3)) // it print onlye thos index which you targeted    slice(1,3)  1 and 2 print and the 3rd one not printed
