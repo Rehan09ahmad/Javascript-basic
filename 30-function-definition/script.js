@@ -21,7 +21,8 @@ add(50, 20);
 function sum(x, y){
     let add = x + y;
     return add;
-
+    
+    //Function Declaration with Parameters and Return Value 
 }
 
 let val = sum(10, 20);
