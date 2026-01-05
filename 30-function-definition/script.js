@@ -1,6 +1,7 @@
 // Function greet
 function greet(name){
     console.log("Hy there im " + name + " im learning js" )
+    //Function Declaration with Parameter and Argument
 }
 
 greet("Rehan Ahamd"); // function call 
