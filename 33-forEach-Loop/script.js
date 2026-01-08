@@ -6,13 +6,14 @@ arr.forEach(function value(val){
         console.log(val)
 
 });
+// ============================================================================
 {
         let friends = ["Rehan", " Shayan", "Ali", "Rameez"];
-        friends.forEach(function (name){
-                console.log(" Asslam-0-alikom "+ name +" bhai")
+        friends.forEach(function (name, indx, arr){
+                console.log("Asslam-0-alikom "+ name +" bhai",indx , arr )
         });
 }
-
+// ============================================================================
 {
         // callback function
 
@@ -22,3 +23,4 @@ arr.forEach(function value(val){
         });
 
 }
+// ============================================================================
