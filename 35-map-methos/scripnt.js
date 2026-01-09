@@ -7,7 +7,7 @@ nums.map((val)=>{
 })
 }
 
-// add newarr in map 
+// add newarray in map 
 
 {
     let nums = [1, 2, 3, 4, 5];
