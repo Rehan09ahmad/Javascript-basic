@@ -38,3 +38,6 @@ let passMarks = marks.filter((val)=>{
 });
 
 console.log(passMarks)
+
+
+
