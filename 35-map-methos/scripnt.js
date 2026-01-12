@@ -39,5 +39,15 @@ let passMarks = marks.filter((val)=>{
 
 console.log(passMarks)
 
+{
+// reduce array methods 
 
+let arr = [1, 2, 3, 4, 5];
 
+let newarray = arr.reduce((total, val)=> {
+    return total + val;
+});
+
+console.log(newarray)
+
+}
